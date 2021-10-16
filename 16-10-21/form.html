@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Bootstrap</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container w-50">
+     <form action="" class="border-bottom pt-3 pb-5 border-secondary">
+        <h3>Billing Address</h3>
+        <div class="form-row">
+            <div class="col-md-6">
+              <label for="validationServer01">First name</label>
+              <input type="text" class="form-control" id="validationServer01">
+            </div>
+            <div class="col-md-6">
+                <label for="validationServer01">Last name</label>
+                <input type="text" class="form-control" id="validationServer01">
+              </div>
+        </div>
+        <div class="form-group">
+            <label for="exampleInputEmail1">Username</label>
+            <div class="input-group">
+                <div class="input-group-prepend">
+                  <span class="input-group-text" id="inputGroupPrepend2">@</span>
+                </div>
+                <input type="text" class="form-control" id="validationDefaultUsername" placeholder="Username" aria-describedby="inputGroupPrepend2" required>
+              </div>
+            <label for="exampleInputEmail1">Email address<small>(Optional)</small></label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="you@example.com">
+            <label for="exampleInputEmail1">Address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="1234 Main St">
+            <label for="exampleInputEmail1">Address2<small>(Optional)</small></label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Apartment or suit">
+        </div>
+        <div class="form-row">
+            <div class="col-md-4">
+                <div class="input-group-prepend">
+                    <label class="exampleInputEmail1" for="inputGroupSelect01">Country</label>
+                  </div>
+                  <select class="custom-select" id="inputGroupSelect01">
+                    <option selected>Choose...</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
+            </div>
+            <div class="col-md-4">
+                <div class="input-group-prepend">
+                    <label class="exampleInputEmail1" for="inputGroupSelect01">State</label>
+                  </div>
+                  <select class="custom-select" id="inputGroupSelect01">
+                    <option selected>Choose...</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
+            </div>
+            <div class="col-md-4">
+                <label for="validationServer01">ZIP</label>
+                <input type="text" class="form-control" id="validationServer01">
+              </div>
+        </div>
+          <div class="form-check mt-5">
+            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+            <label class="form-check-label" for="defaultCheck1">
+              Shipping address is same as my billing address
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+            <label class="form-check-label" for="defaultCheck2">
+              Save this information for next time
+            </label>
+          </div>
+     </form>
+     <form >
+        <h3>Payment</h3>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+            <label class="form-check-label" for="exampleRadios1">
+              Credit Card
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+            <label class="form-check-label" for="exampleRadios2">
+              Debit Card
+            </label>
+          </div>
+          <div class="form-check disabled">
+            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3">
+            <label class="form-check-label" for="exampleRadios3">
+              Paypal
+            </label>
+          </div>
+          <div class="form-row">
+            <div class="col-md-6">
+              <label for="validationServer01">Name on Card</label>
+              <input type="text" class="form-control" id="validationServer01">
+              <small id="passwordHelpBlock" class="form-text text-muted">
+                Full name as displayed on the card
+              </small>
+            </div>
+            <div class="col-md-6">
+                <label for="validationServer01">Credit card no</label>
+                <input type="text" class="form-control" id="validationServer01">
+              </div>
+        </div>
+     </form>
+    </div>
+</body>
+</html>
